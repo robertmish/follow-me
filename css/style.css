@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto&display=swap');
+
+* {
+
+font-family: 'Poppins', sans-serif;
+
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+.header {display: flex;justify-content: space-between;padding-top: 20px;padding-bottom: 20px;border-bottom: 1px solid #000;background: #fff;}
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {font-weight: 600;font-size: 25px;}
+
+
+.top_menu {width: 302px;display: flex;justify-content: space-between;}
+
+.my_cart {display: flex;align-items: center;}
+
+.login_btn {display: flex;align-items: center;padding: 10px;border: 1px solid #000;border-radius: 5px;}
+
+.my_cart img {height: 20px;margin-right: 10px;}
+
+.login_btn img {height: 20px;margin-right: 9px;}
+
+
+.search_box {display: flex;margin-top: 30px;}
+
+.search_icon {
+
+
+}
+
+.search_icon img {height: 27px;position: absolute;margin-left: -48px;margin-top: 8px;opacity: 0.5;}
+
+.search_input {width: -webkit-fill-available;padding: 14px 14px 14px 24px;font-size: 18px;border-radius: 25px;border: 1px solid #dedede;}
+
+.filter_section {
+
+}
+.filters {font-weight: 500;font-size: 20px;}
+.cat_options {
+
+}
+
+.f_s_wrapper {display: flex;justify-content: space-between;margin-top: 36px;align-items: center;}
+
+.size {width: 90%;margin:0 auto;}
+
+.clicked {
+    font-weight: 600;
+    color: #143c71;
+}
+
+.options {padding: 9px;width: 300px;font-size: 22px;color: #444;border-radius: 7px;border: 1px solid #a7a7a7;}
