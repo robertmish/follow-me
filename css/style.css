@@ -61,3 +61,36 @@ body {
 }
 
 .options {padding: 9px;width: 300px;font-size: 22px;color: #444;border-radius: 7px;border: 1px solid #a7a7a7;}
+
+.listing_section {
+
+}
+
+.products_wrapper {display: flex;justify-content: space-between;flex-flow: wrap;margin-top: 42px;}
+
+
+.product_listing {width: 299px;margin-bottom: 100px;}
+
+
+.product_img {width: 100%;}
+
+.product_img img {width: 100%;}
+.product_title {font-size: 19px;margin-bottom: 20px;}
+.under_title {display: flex;justify-content: space-between;}
+.price {font-size: 20px;}
+.rating {
+
+}
+
+.rating img {
+    height: 16px;
+}
+
+
+.yellow_star {
+
+}
+
+.grey_star {
+    opacity: 0.5;
+}
