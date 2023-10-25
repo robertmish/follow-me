@@ -5,8 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
+<div class="mask"></div>
+
+<div class="slide_cart" id="side_slider">
+
+    <div class="cart_header">Your shopping cart</div>
+
+<div class="cart_items_wrapper">
+    <div class="listed_item">
+    <div class="item_title">Vintage Sunflower Mini Dress</div>
+    <div class="item_price">$32</div>
+</div>
+
+<div class="listed_item">
+    <div class="item_title"> Sunflower Mini Dress</div>
+    <div class="item_price">$32</div>
+</div>
+
+<div class="listed_item">
+    <div class="item_title">Mini Dress</div>
+    <div class="item_price">$32</div>
+</div>
+
+
+<div class="listed_item">
+    <div class="item_title">Sunflower Mini Dress</div>
+    <div class="item_price">$32</div>
+</div>
+
+</div>
+
+
+
+
+<div class="checkout_button">Proceed to checkout</div>
+
+
+</div>
+
+
 <div class="header">
 
     <div class="size">
@@ -96,7 +136,7 @@
                     </div>
                 </div>
 
-<div class="add_tocart"> <img src="icons/more_icon.svg" alt="">ADD TO CART </div>
+<div class="add_tocart" id="add_product"> <img src="icons/more_icon.svg" alt="">ADD TO CART </div>
 
             </div>
   
@@ -303,8 +343,15 @@
 </div>
 
 
+<script>
 
+$(function () {
+  $("#add_product").on("click", function () {
+    $("#side_slider").toggle("slow", function () {});
+  });
+});
 
+</script>
 
 
 </body>

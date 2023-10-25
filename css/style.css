@@ -87,7 +87,7 @@ body {
 
 .product_listing:hover .like_button img {
     filter: invert(1) !important;
-    z-index: 999;
+    
 }
 
 
@@ -132,7 +132,7 @@ body {
 .like_button img {
     height: 30px;
     margin: 10px;
-    z-index: 999;
+    
 }
 
 
@@ -156,3 +156,43 @@ body {
 
 }
 .f_m_link {margin-bottom: 10px;}
+
+.slide_cart {
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    right: 0;
+    background-color: #000;
+    z-index: 999;
+    color:#fff;
+    opacity: 0.8;
+ 
+
+    
+}
+
+#side_slider {
+    display: none;
+}
+
+
+
+
+.cart_header {font-size: 20px;margin-left: 28px;margin-top: 20px;width: 80%;margin-bottom: 20px;}
+
+.cart_items_wrapper {width: 80%;margin: 0 auto;}
+
+
+.listed_item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+
+.item_title {
+
+}
+
+.checkout_button {background: #fff;color: #000;width: 226px;text-align: center;border-radius: 10px;padding: 10px;margin-left: 28px;margin-top: 73px;}
