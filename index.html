@@ -8,7 +8,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
-<div class="mask"></div>
+<div id="page-mask"></div>
+
+
+<div class="login_form">
+    <form action="login_process.js" method="post">
+
+    <div class="l_header">Login into your account</div>
+
+
+    <input class="l_input" type="email" placeholder="Your email" required>
+    <input class="l_input" type="password" placeholder="Your password" required>
+    <input class="log_btn" type="submit" value="Login">
+
+</form>
+</div>
 
 <div class="slide_cart" id="side_slider">
 
@@ -59,7 +73,7 @@
     <div class="top_menu">
         <div class="items_number">5</div>
         <div class="my_cart"><img class="shop_icon" src="icons/shopping-cart.svg" alt=""> Your shopping cart</div>
-        <div class="login_btn"><img src="icons/user.svg" alt=""> Login</div>
+        <div class="login_btn" id="login"><img src="icons/user.svg" alt=""> Login</div>
     </div>
 
 
@@ -343,15 +357,9 @@
 </div>
 
 
-<script>
+<script src="script.js"></script>
 
-$(function () {
-  $("#add_product").on("click", function () {
-    $("#side_slider").toggle("slow", function () {});
-  });
-});
 
-</script>
 
 
 </body>

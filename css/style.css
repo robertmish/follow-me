@@ -6,6 +6,48 @@ font-family: 'Poppins', sans-serif;
 
 }
 
+#page-mask {
+    display: none;
+    background: rgba(0, 0, 0, 0.63);
+    position: fixed;
+    inset: 0px;
+    z-index: 998;
+}
+
+.login_form {
+    display: none;
+    height: 381px;
+    width: 360px;
+    position: absolute;
+    left: 50%;
+    margin-left: -230px;
+    top: 20%;
+    z-index: 999;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 3px;
+    border-radius: 5px;
+    padding: 40px;
+    transition: visibility 1s ease 0s, opacity 0.5s ease-out 0s;
+}
+
+.l_header {
+font-size: 22px;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.l_input {width: -webkit-fill-available;padding: 10px;margin-bottom: 10px;border-radius: 5px;border: 1px solid #dedede;}
+
+.log_btn {
+    width: -webkit-fill-available;
+    background: orange;
+    border: 1px solid #d68c06;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
